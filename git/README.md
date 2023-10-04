@@ -33,4 +33,11 @@
         - git add 파일명
 
 - gitignore
-    - 깃 상에서 불필요한 파일 or 폴더 업데이트 자체를 무시
+    - 루트 경로에 있은 `.gitignore`파일은 버전관리 하지 않을 파일의 목록을 관리하는 용도
+    - 사용하는 운영체제, 에디터, 프로그래밍 언어, SDK, 라이브러리 등의 종류에 따라 의도치 않은 파일 생성시, `.gitignore`파일에서 관리
+        - ex) https://github.com/RyanNielson/PixelCamera2D/blob/master/.gitignore
+    - 처음 프로젝트 세팅하면 여러 툴을 사용해 자동으로 `.gitignore`파일에 들어갈 내용을 생성
+        - 웹사이트
+            - ex) https://www.toptal.com/developers/gitignore
+        -VSCode 익스텐션
+            - gitignore by CodeZombie
