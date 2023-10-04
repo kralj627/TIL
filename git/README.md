@@ -39,5 +39,5 @@
     - 처음 프로젝트 세팅하면 여러 툴을 사용해 자동으로 `.gitignore`파일에 들어갈 내용을 생성
         - 웹사이트
             - ex) https://www.toptal.com/developers/gitignore
-        -VSCode 익스텐션
+        - VSCode 익스텐션
             - gitignore by CodeZombie
