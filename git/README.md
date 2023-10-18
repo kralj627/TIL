@@ -41,3 +41,22 @@
             - ex) https://www.toptal.com/developers/gitignore
         - VSCode 익스텐션
             - gitignore by CodeZombie
+         
+## 2023-10-18
+- 저장소
+    - 일반 폴더와 저장소의 차이는 `.git` 숨김폴더가 유무차이
+        - 일반 폴더는 `.git` 숨김폴더 O
+        - 저장소는 `.git` 숨김폴더 X
+    - `.git` 숨김폴더를 삭제하면 커밋 이력등도 같이 삭제
+
+- 브랜치
+    - 커밋을 가리키는 포인터
+    - 이슈 생성, 이슈에 해당하는 브랜치 생성
+        - `git branch` <--만들어진 브랜치 확인
+        - `git branch 브랜치명` <--새로운 브랜치 생성
+    - 작업 시작할 땐, 생성한 브랜치로 전환(switch)
+        - `git switch 브랜치명`
+        - `git checkout 브랜치명`
+
+
+
